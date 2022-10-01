@@ -1,0 +1,18 @@
+.row{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid blue;
+  padding: 10px;
+  
+}
+
+.row h1{
+  color: brown;
+}
+
+.box{
+  border: 2px dotted green;
+  padding: 10px;
+  margin: 5px;
+  background-color: aquamarine;
+}

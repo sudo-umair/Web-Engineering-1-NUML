@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 3 | Part 1</title>
+  <style>
+    header {
+      display: flex;
+      flex-direction: row;
+      background-color: blanchedalmond;
+      padding: 10px;
+      border: 1px solid black;
+    }
+
+    header img {
+      width: 60px;
+    }
+
+    header nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin: 20px;
+      border: 1px solid blue;
+    }
+
+    header nav a {
+      text-decoration: none;
+      color: rebeccapurple;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px;
+      padding: 20px;
+      border: 2px solid red;
+    }
+
+    .sec {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      border: 2px solid green;
+      padding: 10px;
+    }
+
+    aside {
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+      border: 2px solid orange;
+      padding: 10px;
+      margin-left: 10px;
+    }
+
+    aside ul li {
+      list-style-type: none;
+      margin: 10px;
+    }
+
+    aside ul li a {
+      text-decoration: none;
+      color: red;
+    }
+
+    footer {
+      display: flex;
+      flex-direction: column;
+      background-color: lightblue;
+      padding: 20px;
+      margin-top: 10px;
+      border: 1px solid black;
+    }
+    .columns{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .col{
+      display: flex;
+      flex-direction: column;
+      width: 25%;
+      border: 1px solid black;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="numl-logo.png" alt="" srcset="">
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Gallery</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="sec">
+      <section>
+        <h2>This is a section</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti consequuntur repellat suscipit, pariatur
+          a, similique ut in, perferendis corporis aperiam soluta magnam rem sed dignissimos incidunt enim? Praesentium
+          molestias modi expedita tenetur ab vero recusandae, aperiam voluptatum unde molestiae quos architecto,
+          deleniti atque distinctio.</p>
+      </section>
+      <article>
+        <h2>This is an article.</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti consequuntur repellat suscipit, pariatur
+          a, similique ut in, perferendis corporis aperiam soluta magnam rem sed dignissimos incidunt enim? Praesentium
+          molestias modi expedita tenetur ab vero recusandae, aperiam voluptatum unde molestiae quos architecto,
+          deleniti atque distinctio.</p>
+      </article>
+    </div>
+    <aside>
+      <ul>
+        <li>
+          <h2>This is aside</h2>
+        </li>
+        <li><a href="">Text 1</a></li>
+        <li><a href="">Text 2</a></li>
+        <li><a href="">Text 3</a></li>
+        <li><a href="">Text 4</a></li>
+        <li><a href="">Text 5</a></li>
+        <li><a href="">Text 6</a></li>
+        <li><a href="">Text 7</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <h2>This is footer</h2>
+    <div class="columns">
+      <div class="col">
+        <ul>
+          <li><a href="https://www.ft.com/tour">View Site Tips</a></li>
+          <li><a href="http://help.ft.com/">Help Centre</a></li>
+          <li><a href="https://aboutus.ft.com/contact-us">Contact Us</a></li>
+          <li><a href="http://www.ft.com/aboutus">About Us</a></li>
+          <li><a href="https://www.ft.com/accessibility">Accessibility</a></li>
+          <li><a href="https://www.ft.com/tour/myft">myFT Tour</a></li>
+          <li><a href="https://aboutus.ft.com/en-gb/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul>
+          <li><a href="https://www.ft.com/tour">View Site Tips</a></li>
+          <li><a href="http://help.ft.com/">Help Centre</a></li>
+          <li><a href="https://aboutus.ft.com/contact-us">Contact Us</a></li>
+          <li><a href="http://www.ft.com/aboutus">About Us</a></li>
+          <li><a href="https://www.ft.com/accessibility">Accessibility</a></li>
+          <li><a href="https://www.ft.com/tour/myft">myFT Tour</a></li>
+          <li><a href="https://aboutus.ft.com/en-gb/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul>
+          <li><a href="https://www.ft.com/tour">View Site Tips</a></li>
+          <li><a href="http://help.ft.com/">Help Centre</a></li>
+          <li><a href="https://aboutus.ft.com/contact-us">Contact Us</a></li>
+          <li><a href="http://www.ft.com/aboutus">About Us</a></li>
+          <li><a href="https://www.ft.com/accessibility">Accessibility</a></li>
+          <li><a href="https://www.ft.com/tour/myft">myFT Tour</a></li>
+          <li><a href="https://aboutus.ft.com/en-gb/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul>
+          <li><a href="https://www.ft.com/tour">View Site Tips</a></li>
+          <li><a href="http://help.ft.com/">Help Centre</a></li>
+          <li><a href="https://aboutus.ft.com/contact-us">Contact Us</a></li>
+          <li><a href="http://www.ft.com/aboutus">About Us</a></li>
+          <li><a href="https://www.ft.com/accessibility">Accessibility</a></li>
+          <li><a href="https://www.ft.com/tour/myft">myFT Tour</a></li>
+          <li><a href="https://aboutus.ft.com/en-gb/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul>
+          <li><a href="https://www.ft.com/tour">View Site Tips</a></li>
+          <li><a href="http://help.ft.com/">Help Centre</a></li>
+          <li><a href="https://aboutus.ft.com/contact-us">Contact Us</a></li>
+          <li><a href="http://www.ft.com/aboutus">About Us</a></li>
+          <li><a href="https://www.ft.com/accessibility">Accessibility</a></li>
+          <li><a href="https://www.ft.com/tour/myft">myFT Tour</a></li>
+          <li><a href="https://aboutus.ft.com/en-gb/careers/">Careers</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 6</title>
+  <style>
+    .container{
+      width: 400px;
+      border: 2px solid black;
+      padding: 10px;
+    }
+    p{
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body onclick="callme()">
+  <h1>Exploring javascript for web dev.</h1>
+  <br>
+  <div class="container">
+    <p id="p-1">On First click this text's color would change</p>
+    <p id="p-2">On Second click this text would change</p>
+    <br>
+    <p>On third click the source of the image below would change</p>
+    <img id="image" src="html.jfif">
+    <br>
+    <p>On fourth click an alert would be shown to user</p>
+  </div>
+
+
+  <script>
+    var count = 1;
+    function callme() {
+      if (count == 1) {
+        document.getElementById('p-1').style.color = "brown";
+      }
+      else if (count == 2) {
+        document.getElementById('p-2').innerText = "Text Changed";
+      }
+      else if (count == 3) {
+        document.getElementById("image").src = "vscode.jfif";
+      }
+      else{
+        alert("You have clicked "+count+" times");
+      }
+      count++;
+    }
+  </script>
+</body>
+
+</html>
